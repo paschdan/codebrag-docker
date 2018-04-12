@@ -25,4 +25,5 @@ ADD ssh.config /root/.ssh/config
 WORKDIR /opt/codebrag
 EXPOSE 8080
 VOLUME /repos
+VOLUME /data
 CMD java -Dconfig.file=/opt/codebrag/application.conf -Dlogback.configurationFile=/opt/codebrag/logback.xml -jar /opt/codebrag/codebrag-dist-assembly-*.jar
