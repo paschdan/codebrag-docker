@@ -4,9 +4,9 @@ codebrag-docker
 Env
 ---
 
-`REPOS` repos to get cloned and watched by codebrag
-`GITHUB_USER` github user to use for cloning
-`GITHUB_TOKEN` github token/password to use
+* `REPOS` repos to get cloned and watched by codebrag
+* `GITHUB_USER` github user to use for cloning
+* `GITHUB_TOKEN` github token/password to use
 
 Usage
 -----
